@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/colorPrimary">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open With Copy Url"
+        android:textSize="40dp"
+        android:rotation="20"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/colorText"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="By"
+        android:textSize="40dp"
+        android:rotation="20"
+        android:textColor="@color/colorText"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Terminal_Heat_Sink"
+        android:textSize="40dp"
+        android:rotation="20"
+        android:textColor="@color/colorText"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Current Text in ClipBoard"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/colorText"/>
+
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:textColor="@color/notification_settings_on"
+        android:background="@color/colorPrimary"
+        />
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorBG">#101010</color>
+    <color name="colorButton">#0B0B0B</color>
+    <color name="colorText">#FF4141</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FB1D1D</color>
+    <color name="colorOFF">#CD1A1A</color>
+    <color name="colorThumbOn">#4E0A0A</color>
+    <color name="colorON">#06B306</color>
+    <color name="colorDisabled">#2B2525</color>
+    <color name="seperator">#0E0E0E</color>
+    <color name="notification_settings_on">#2B63F1</color>
+    <color name="notification_settings_off">#001E68</color>
+</resources>
