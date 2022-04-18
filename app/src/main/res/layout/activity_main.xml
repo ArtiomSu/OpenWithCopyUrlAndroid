@@ -37,22 +37,145 @@
         android:textColor="@color/colorText"/>
 
     <TextView
+        android:id="@+id/youtubedetectedtext"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Current Text in ClipBoard"
-        android:layout_marginTop="40dp"
-        android:textColor="@color/colorText"/>
+        android:text="Youtube Url Detected"
+        android:textSize="30dp"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/colorText"
+        android:visibility="gone"/>
 
-
-    <EditText
-        android:id="@+id/editTextTextMultiLine"
+    <LinearLayout
+        android:id="@+id/llyoutube"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:gravity="start|top"
-        android:inputType="textMultiLine"
-        android:textColor="@color/notification_settings_on"
-        android:background="@color/colorPrimary"
-        />
+        android:layout_marginTop="10dp"
+        android:weightSum="10.0"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/openbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorThumbOn"
+            android:padding="10dp"
+            android:text="Open Youtube"
+            android:textColor="@color/colorText"
+            android:visibility="gone"
+            android:layout_weight="5"/>
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/openbuttonalways"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorThumbOn"
+            android:padding="10dp"
+            android:text="Always Open Youtube"
+            android:textColor="@color/colorText"
+            android:layout_weight="5"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llvanced"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:weightSum="10.0"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/openvancedbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorThumbOn"
+            android:padding="10dp"
+            android:text="Open Vanced"
+            android:textColor="@color/colorText"
+            android:visibility="gone"
+            android:layout_weight="5"/>
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/openvancedbuttonalways"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorThumbOn"
+            android:padding="10dp"
+            android:text="Always Open Vanced"
+            android:textColor="@color/colorText"
+            android:layout_weight="5"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:weightSum="10.0"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/okbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:background="@color/colorThumbOn"
+            android:padding="10dp"
+            android:textColor="@color/colorText"
+            android:layout_weight="5" />
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/neverbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Never show this again"
+            android:background="@color/colorThumbOn"
+            android:padding="10dp"
+            android:textColor="@color/colorText"
+            android:layout_weight="5"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llsettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:textSize="30dp"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/colorText" />
+
+        <Button
+            android:id="@+id/cleardefaults"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clear Defaults"
+            android:background="@color/colorThumbOn"
+            android:padding="10dp"
+            android:textColor="@color/colorText"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
 
 </LinearLayout>
