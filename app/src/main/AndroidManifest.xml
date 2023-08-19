@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="terminal_heat_sink.openwithcopyurl">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <queries>
         <package android:name="com.google.android.youtube" />
@@ -17,7 +16,7 @@
         <activity android:name=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar"
             android:excludeFromRecents="true"
-            >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
